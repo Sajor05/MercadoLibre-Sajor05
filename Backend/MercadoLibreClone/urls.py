@@ -16,7 +16,24 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from rest_framework_simplejwt.views import TokenRefreshView
+from ..accounts.views import TokenObtainPairViewClass, user_profile
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path(
+        "api/token/",
+        TokenObtainPairViewClass.as_view(),
+        name = "token_obtain_pair"
+    ),
+    path(
+        "api/token/refresh/",
+        TokenRefreshView.as_view(),
+        name="token_refresh"
+    ),
+    path(
+        "api/profile/",
+        user_profile,
+        name="user_profile"
+    ),
 ]
