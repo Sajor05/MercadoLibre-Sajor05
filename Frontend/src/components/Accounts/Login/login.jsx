@@ -21,7 +21,6 @@ export function Login() {
       const data = await response.json();
 
       if (response.ok) {
-        // Guardamos los tokens en localStorage
         localStorage.setItem("access", data.access);
         localStorage.setItem("refresh", data.refresh);
 
