@@ -3,7 +3,7 @@ import { Main_carousel } from "./Home_carrousel/Main_Carrousel/Main_carousel";
 import { Related_history } from "./Last_seen/Related_history";
 import { Recommendations } from "./Home_carrousel/Recommendation_carrousel/Recommendations";
 import { Electrodomestic_Carrousel } from "./Home_carrousel/Electrodomestic_Carrousel/Electrodomestic_Carrousel";
-import { Suscribe } from "./Home_suscribe/home_suscribe";
+import { Suscribe } from "./suscribe/Home_suscribe";
 
 export function Home() {
   return (
