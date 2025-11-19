@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Register from "../signup/Register";
+import { Credentials_Header } from "../sign_header/Credentials_Header";
+import { Link } from "react-router-dom";
 
 export function Login() {
   const [username, setUsername] = useState("");
@@ -37,28 +37,34 @@ export function Login() {
 
   return (
     <>
-      <Routes>
-        <Route path="/register" element={<Register></Register>}></Route>
-      </Routes>
-      <BrowserRouter>
-        <h2>Iniciar sesión</h2>
-        <form onSubmit={handleLogin}>
-          <input
-            type="text"
-            placeholder="Usuario..."
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-          />
-          <input
-            type="password"
-            placeholder="Contraseña..."
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <button type="submit">Entrar</button>
-        </form>
-        {error && <p style={{ color: "red" }}>{error}</p>}
-      </BrowserRouter>
+      <Credentials_Header></Credentials_Header>
+      <h2>Iniciar sesión</h2>
+      <form onSubmit={handleLogin}>
+        <input
+          type="text"
+          placeholder="Usuario..."
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+        />
+        <input
+          type="password"
+          placeholder="Contraseña..."
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <button type="submit">Entrar</button>
+      </form>
+      <h6>
+        No tenes cuenta?
+        <span>
+          <ul>
+            <li>
+              <Link to="/registrate">Registrate</Link>
+            </li>
+          </ul>
+        </span>
+      </h6>
+      {error && <p style={{ color: "red" }}>{error}</p>}
     </>
   );
 }
