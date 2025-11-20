@@ -42,7 +42,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGIN = [
-    "https://localhost:3000",
+    "https://mercadolibre-sajor05.onrender.com",
     "https://mercado-libre-sajor05.vercel.app/"
 ]
 CORS_ALLOW_CREDENTIALS = True
