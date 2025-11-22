@@ -30,6 +30,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',    
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -37,13 +38,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware"
 ]
 
-CORS_ALLOWED_ORIGIN = [
-    "https://mercadolibre-sajor05.onrender.com",
-    "https://mercado-libre-sajor05.vercel.app/"
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173/",
+    "https://mercado-libre-sajor05.vercel.app"
 ]
 CORS_ALLOW_CREDENTIALS = True
 
@@ -93,6 +93,8 @@ DATABASES = {
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
+
+AUTH_USER_MODEL = "accounts.Profile"
 
 AUTH_PASSWORD_VALIDATORS = [
     {

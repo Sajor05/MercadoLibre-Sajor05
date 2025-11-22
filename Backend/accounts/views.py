@@ -7,7 +7,7 @@ from rest_framework.response import Response
 #R E G I S T E R  D E P E N D E C Y
 from rest_framework.views import APIView
 from rest_framework import status
-from .serializers import UserRegistrationSerializer
+from serializers import UserRegistrationSerializer
 
 """""""""""""""""""""
 -- R E G I S T E R --
@@ -15,7 +15,7 @@ from .serializers import UserRegistrationSerializer
 class RegisterView(APIView):
     def post(self, request):
         serializer = UserRegistrationSerializer(data=request.data)
-        if(serializer.is_valid):
+        if(serializer.is_valid()):
             serializer.save()
             return (Response({"message" : "Usuario Registrado correctamente"}, status=status.HTTP_201_CREATED))
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

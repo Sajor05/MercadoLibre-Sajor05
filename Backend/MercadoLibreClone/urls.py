@@ -17,7 +17,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from rest_framework_simplejwt.views import TokenRefreshView
-from accounts.views import TokenObtainPairViewClass, user_profile
+from accounts.views import TokenObtainPairViewClass
+from accounts.views import user_profile
 from accounts.views import RegisterView
 
 urlpatterns = [
