@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from rest_framework_simplejwt.views import TokenRefreshView
 from accounts.views import TokenObtainPairViewClass, user_profile
+from accounts.views import RegisterView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -36,4 +37,5 @@ urlpatterns = [
         user_profile,
         name="user_profile"
     ),
+    path("register/", RegisterView.as_view(), name="register")
 ]
