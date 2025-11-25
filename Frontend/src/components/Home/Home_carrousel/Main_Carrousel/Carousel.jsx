@@ -1,23 +1,39 @@
-import { ChevronLeft, ChevronRight } from "react-feather";
 import { useState, useEffect } from "react";
+import { Right_button } from "./buttons/Right_button.jsx";
+import { Left_button } from "./buttons/Left_button.jsx";
 
 export function Carousel({ children: slides }) {
+  //Curr => actual, setCur => Actualiza el Curr
   const [curr, setCurr] = useState(0);
 
+  /*-------------------
+  -- A N T E R I O R --
+  ---------------------
+  Si estamos en la primera imagen y le damos a la anterior (prev)
+  entonces va hacia la ultima (slides.length - 1), si no estamos en la primera (osea curr > 0)
+  muestra la imagen que esta en curr - 1*/
   const prev = () =>
     setCurr((curr) => (curr === 0 ? slides.length - 1 : curr - 1));
 
+  /*---------------------
+  -- S I G U I E N T E --
+  -----------------------
+  Si estamos en la ultima imagen (slides.length - 1) y le damos a la siguiente (next)
+  entonces va hacia la primera imagén (la posición 0), si no solo suma a curr 1 (se muestra la siguiente imagen)*/
   const next = () =>
     setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
 
+  /*-----------------------------
+  -- A U T O S I G U I E N T E --
+  -----------------------------*/
   useEffect(() => {
     const id = setTimeout(
       () => setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1)),
       8000
     );
-
     return () => clearTimeout(id);
   }, [curr, slides.length, 8000]);
+
   return (
     <>
       <div className="overflow-x-hidden relative">
@@ -28,18 +44,8 @@ export function Carousel({ children: slides }) {
           {slides}
         </div>
         <div className="absolute inset-0 flex items-center justify-between p-4">
-          <button
-            onClick={prev}
-            className="p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer"
-          >
-            <ChevronLeft size={40} color="skyblue"></ChevronLeft>
-          </button>
-          <button
-            onClick={next}
-            className="p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer"
-          >
-            <ChevronRight size={40} color="skyblue"></ChevronRight>
-          </button>
+          <Left_button onClick={prev}></Left_button>
+          <Right_button onClick={next}></Right_button>
         </div>
       </div>
     </>

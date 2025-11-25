@@ -1,5 +1,5 @@
 import "./Articles.css";
-import Recomendation5 from "../../../../../assets/Recomendation-carousel/recomendation5.jpg";
+import Recomendation5 from "./Assets/recomendation5.jpg";
 /*
 ------------------------------------------
 -- V I S T O  R E C I E N T E M E N T E --

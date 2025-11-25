@@ -13,7 +13,7 @@ import Tostadora from "./Assets/Tostadora.png";
 
 import { Articulo } from "../../../Articles/articles";
 import { ArticleCard } from "../../../Articles/ArticleCard";
-import { Recommendation_carousel } from "../Recommendation_carrousel/Recommendation_carrousel";
+import { Recommendation_carousel } from "../../../carousel/Recommendation_carrousel/Recommendation_carrousel";
 
 const heladera = new Articulo(1, Heladera, "Heladera", 229734);
 const lavavajillas = new Articulo(2, Lavavajillas, "lavavajillas", 229734);

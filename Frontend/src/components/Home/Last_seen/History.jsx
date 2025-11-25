@@ -1,7 +1,7 @@
 import Articulo1_image from "../../../assets/Related_history/Article1.jpg";
 import { Articulo } from "../../Articles/articles";
 import { ArticleCard } from "../../Articles/ArticleCard";
-import { Recommendation_carousel } from "../Home_carrousel/Recommendation_carrousel/Recommendation_carrousel";
+import { Recommendation_carousel } from "../../carousel/Recommendation_carrousel/Recommendation_carrousel";
 
 const articulo1 = new Articulo(
   1,

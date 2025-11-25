@@ -1,16 +1,14 @@
-import { ChevronLeft, ChevronRight } from "react-feather";
-export function Left_button() {
-  const [curr, setCurr] = useState(0);
-  const next = () =>
-    setCurr((curr) => (curr === slides.length - 1 ? 0 : curr + 1));
+import { ChevronRight } from "react-feather";
+import "./buttons.css";
+
+export function Right_button({ onClick }) {
   return (
     <>
-      {" "}
       <button
-        onClick={next}
+        onClick={onClick}
         className="p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer"
       >
-        <ChevronLeft size={40} color="skyblue"></ChevronLeft>
+        <ChevronRight size={40} color="skyblue"></ChevronRight>
       </button>
     </>
   );
