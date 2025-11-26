@@ -1,12 +1,12 @@
-import "./Styles/electrodomestic_carousel.css";
-import { Electrodomestic_Articles } from "./Electrodomestic_Articles";
-export function Electrodomestic_Carrousel() {
+import "./css/Related_history.css";
+import { History } from "./History";
+export function Related_history() {
   return (
     <>
       <div className="flex justify-center">
         <section className="related_history-container bg-white h-[380px] w-[1180px] p-[20px]">
           <header className="related_history-header-container flex justify-between">
-            <h3 className="font-bold">Electrodomésticos</h3>
+            <h3 className="font-bold">Inspirado en lo último que viste</h3>
             <ul className="flex gap-3">
               <li>
                 <button
@@ -35,7 +35,7 @@ export function Electrodomestic_Carrousel() {
             </ul>
           </header>
           <main>
-            <Electrodomestic_Articles></Electrodomestic_Articles>
+            <History></History>
           </main>
         </section>
       </div>

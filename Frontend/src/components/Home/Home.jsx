@@ -1,10 +1,10 @@
 import "./Home.css";
 import { Header } from "../Header/Header";
-import { Main_carousel } from "./Home_carrousel/Main_Carrousel/Main_carousel";
-import { Related_history } from "./Last_seen/Related_history";
-import { Recommendations } from "../carousel/Recommendation_carrousel/Recommendations.jsx";
-import { Electrodomestic_Carrousel } from "./Home_carrousel/Electrodomestic_Carrousel/Electrodomestic_Carrousel";
-import { Suscribe } from "./suscribe/Home_suscribe";
+import { Suscribe } from "./components/suscribe/Home_suscribe.jsx";
+import { Main_carousel } from "../carousel/Main_Carrousel/Main_carousel.jsx";
+import { Related_history } from "./components/last_seen/Related_history.jsx";
+import { Recommendations } from "../carousel/recommendation_carousel/Recommendations.jsx";
+import { Electrodomestic_Carrousel } from "../carousel/products_carousel/electrodomestic_Carrousel/Electrodomestic_Carrousel.jsx";
 
 export function Home() {
   return (

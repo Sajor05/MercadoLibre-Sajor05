@@ -1,3 +1,5 @@
+// IMAGENES DE LOS ARTICULOS
+
 import Heladera from "./Assets/Heladera.png";
 import Lavavajillas from "./Assets/Lavavajillas.jpg";
 import Combo from "./Assets/Combo.png";
@@ -11,10 +13,12 @@ import Microondas from "./Assets/Microondas.png";
 import PavaElectrica from "./Assets/Pavaelectrica.png";
 import Tostadora from "./Assets/Tostadora.png";
 
+//COMPONENTES
 import { Articulo } from "../../../Articles/articles";
 import { ArticleCard } from "../../../Articles/ArticleCard";
-import { Recommendation_carousel } from "../../../carousel/Recommendation_carrousel/Recommendation_carrousel";
+import { Recommendation_carousel } from "../../recommendation_carousel/Recommendation_carrousel";
 
+//OBJETOS ARTICULO
 const heladera = new Articulo(1, Heladera, "Heladera", 229734);
 const lavavajillas = new Articulo(2, Lavavajillas, "lavavajillas", 229734);
 const combo = new Articulo(

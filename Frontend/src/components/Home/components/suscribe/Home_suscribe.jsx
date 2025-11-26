@@ -1,7 +1,7 @@
 import "./Home_suscribe.css";
-import Envios from "../../../assets/Suscribe/free_shipping_2x.png";
-import Cuotas from "../../../assets/Suscribe/interest_free_installments_discount_2x.png";
-import Pedidos from "../../../assets/Suscribe/proximity-square@2x.png";
+import Envios from "./assets/free_shipping_2x.png";
+import Cuotas from "./assets/interest_free_installments_discount_2x.png";
+import Pedidos from "./assets/proximity-square@2x.png";
 
 export function Suscribe() {
   return (

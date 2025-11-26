@@ -1,10 +1,10 @@
-import "./Main_carousel";
-import Carrousel_1 from "../../../../assets/Carrousel/carrousel1.jpg";
-import Carrousel_2 from "../../../../assets/Carrousel/carrousel2.jpg";
-import Carrousel_3 from "../../../../assets/Carrousel/carrousel3.jpg";
-import Carrousel_4 from "../../../../assets/Carrousel/carrousel4.jpg";
-import Carrousel_5 from "../../../../assets/Carrousel/carrousel5.jpg";
-import { Carousel } from "./Carousel";
+import "./Main_carousel.css";
+import Carrousel_1 from "./assets/carrousel1.jpg";
+import Carrousel_2 from "./assets/carrousel2.jpg";
+import Carrousel_3 from "./assets/carrousel3.jpg";
+import Carrousel_4 from "./assets/carrousel4.jpg";
+import Carrousel_5 from "./assets/carrousel5.jpg";
+import { Carousel } from "../Carousel.jsx";
 
 const carousel_images = [
   Carrousel_1,
