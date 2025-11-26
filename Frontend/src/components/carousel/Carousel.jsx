@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { Right_button } from "./main_Carrousel/components/Right_button.jsx";
-import { Left_button } from "./main_Carrousel/components/Left_button.jsx";
+import { Right_button } from "./components/Right_button.jsx";
+import { Left_button } from "./components/Left_button.jsx";
 
 export function Carousel({ children: slides }) {
   //Curr => actual, setCur => Actualiza el Curr
