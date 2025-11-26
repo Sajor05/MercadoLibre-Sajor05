@@ -1,17 +1,17 @@
 // IMAGENES DE LOS ARTICULOS
 
-import Heladera from "./Assets/Heladera.png";
-import Lavavajillas from "./Assets/Lavavajillas.jpg";
-import Combo from "./Assets/Combo.png";
-import Caloventor from "./Assets/Caloventor.png";
-import AireAcondicionado from "./Assets/AireAcondicionado.png";
-import AirFryer from "./Assets/AirFyer.png";
-import Hornito from "./Assets/Hornito.png";
-import Horno from "./Assets/Horno.png";
-import Trituradora from "./Assets/Trituradora.png";
-import Microondas from "./Assets/Microondas.png";
-import PavaElectrica from "./Assets/Pavaelectrica.png";
-import Tostadora from "./Assets/Tostadora.png";
+import Heladera from "./assets/Heladera.png";
+import Lavavajillas from "./assets/Lavavajillas.jpg";
+import Combo from "./assets/Combo.png";
+import Caloventor from "./assets/Caloventor.png";
+import AireAcondicionado from "./assets/AireAcondicionado.png";
+import AirFryer from "./assets/AirFyer.png";
+import Hornito from "./assets/Hornito.png";
+import Horno from "./assets/Horno.png";
+import Trituradora from "./assets/Trituradora.png";
+import Microondas from "./assets/Microondas.png";
+import PavaElectrica from "./assets/Pavaelectrica.png";
+import Tostadora from "./assets/Tostadora.png";
 
 //COMPONENTES
 import { Articulo } from "../../../Articles/articles";
