@@ -1,5 +1,5 @@
 import "./Articles.css";
-import Recomendation2 from "./Assets/recomendation2.jpg";
+import Recomendation2 from "./assets/recomendation2.jpg";
 /*
 ----------------------------------------
 -- I N G R E S Á  A  T U  C U E N T A --

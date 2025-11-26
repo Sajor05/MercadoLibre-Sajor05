@@ -1,5 +1,5 @@
 import "./Articles.css";
-import Recomendation4 from "./Assets/recomendation4.jpg";
+import Recomendation4 from "./assets/recomendation4.jpg";
 
 /*
 ----------------------

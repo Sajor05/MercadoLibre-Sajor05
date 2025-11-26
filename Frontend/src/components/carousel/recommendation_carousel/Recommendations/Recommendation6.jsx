@@ -1,4 +1,4 @@
-import Recomendation6 from "./Assets/recomendation6.jpg";
+import Recomendation6 from "./assets/recomendation6.jpg";
 import "./Articles.css";
 /*
 -------------------------------
