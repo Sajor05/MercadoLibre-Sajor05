@@ -1,10 +1,8 @@
 import Recomendation6 from "./assets/recomendation6.jpg";
 import "./Articles.css";
-/*
--------------------------------
--- M E D I O S  D E  P A G O --
--------------------------------
-*/
+/*-------------------------------
+  -- M E D I O S  D E  P A G O --
+  -------------------------------*/
 export function Recommendation6() {
   return (
     <article className="p-5 h-[285px] rounded-md">
