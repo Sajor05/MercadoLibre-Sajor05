@@ -1,4 +1,4 @@
-import Recomendation6 from "./assets/recomendation6.jpg";
+import Reco6 from "./assets/recomendation6.jpg";
 import "./Articles.css";
 /*-------------------------------
   -- M E D I O S  D E  P A G O --
@@ -12,7 +12,7 @@ export function Recommendation6() {
         </h2>
       </div>
       <div className="recomendation-carousel-article-img flex text-center justify-center">
-        <img src={Recomendation6} alt="" className="w-[105px] h-[105px]" />
+        <img src={Reco6} alt="" className="w-[105px] h-[105px]" />
       </div>
       <div className="recomendation-carousel-article-title-ml text-center text-sm line-clamp-2">
         <a href="#">
