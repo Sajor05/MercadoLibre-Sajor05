@@ -3,7 +3,6 @@ import { Recommendation2 } from "./Recommendations/Recommendation2";
 import { Recommendation3 } from "./Recommendations/Recommendation3";
 import { Recommendation4 } from "./Recommendations/Recommendation4";
 import { Recommendation5 } from "./Recommendations/Recommendation5";
-import { Recommendation6 } from "./Recommendations/Recommendation6";
 import { Recommendation7 } from "./Recommendations/Recommendation7";
 import { Recommendation8 } from "./Recommendations/Recommendation8";
 import { Recommendation9 } from "./Recommendations/Recommendation9";
@@ -16,7 +15,6 @@ const articles = [
   Recommendation3,
   Recommendation4,
   Recommendation5,
-  Recommendation6,
   Recommendation7,
   Recommendation8,
   Recommendation9,
