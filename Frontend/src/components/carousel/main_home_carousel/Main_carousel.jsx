@@ -1,17 +1,21 @@
 import "./Main_carousel.css";
-import Carrousel_1 from "./assets/carrousel1.jpg";
-import Carrousel_2 from "./assets/carrousel2.jpg";
-import Carrousel_3 from "./assets/carrousel3.jpg";
-import Carrousel_4 from "./assets/carrousel4.jpg";
-import Carrousel_5 from "./assets/carrousel5.jpg";
+import Carousel_1 from "./assets/carousel1.jpg";
+import Carousel_2 from "./assets/carousel2.jpg";
+import Carousel_3 from "./assets/carousel3.jpg";
+import Carousel_4 from "./assets/carousel4.jpg";
+import Carousel_5 from "./assets/carousel5.jpg";
+import Carousel_6 from "./assets/carousel6.jpg";
+import Carousel_7 from "./assets/carousel7.jpg";
 import { Carousel } from "../Carousel.jsx";
 
 const carousel_images = [
-  Carrousel_1,
-  Carrousel_2,
-  Carrousel_3,
-  Carrousel_4,
-  Carrousel_5,
+  Carousel_1,
+  Carousel_2,
+  Carousel_3,
+  Carousel_4,
+  Carousel_5,
+  Carousel_6,
+  Carousel_7,
 ];
 
 export function Main_carousel() {

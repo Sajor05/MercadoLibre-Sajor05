@@ -1,0 +1,22 @@
+.nav-menu-list-item{
+  position: relative;
+}
+
+.nav-menu-list-item span{
+  position: absolute;
+  box-sizing: border-box;
+  left: 50%;
+  bottom: 85%;
+  background-color: #00a650;
+  transform: translate(-50%);
+  color: white;
+  border-radius: 8px;
+  font-size: 8px;
+  padding: 1px 3px;
+  padding-top: 3px;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 2px;
+}

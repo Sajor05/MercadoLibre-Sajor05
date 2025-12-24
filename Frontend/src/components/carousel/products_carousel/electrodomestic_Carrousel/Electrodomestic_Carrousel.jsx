@@ -1,6 +1,6 @@
 import "./css/Electrodomestic_carousel.css";
 import { Electrodomestic_Articles } from "./Electrodomestic_Articles.jsx";
-export function Electrodomestic_Carrousel() {
+export const Electrodomestic_Carrousel = () => {
   return (
     <>
       <div className="flex justify-center">

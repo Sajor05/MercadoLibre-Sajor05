@@ -1,4 +1,4 @@
-// IMAGENES DE LOS ARTICULOS
+// IMAGENES DE LOS ProductCardModelS
 
 import Heladera from "./assets/Heladera.png";
 import Lavavajillas from "./assets/Lavavajillas.jpg";
@@ -14,33 +14,33 @@ import PavaElectrica from "./assets/Pavaelectrica.png";
 import Tostadora from "./assets/Tostadora.png";
 
 //COMPONENTES
-import { Articulo } from "../../../Articles/articles";
-import { ArticleCard } from "../../../Articles/ArticleCard";
-import { Recommendation_carousel } from "../../recommendation_carousel/Recommendation_carrousel";
+import { ProductCardModel } from "../../../../models/product/productModel";
+import { ProductCard } from "../../../../models/product/ProductCard";
+import { Recommendation_carousel } from "../../Recommendation_carrousel.jsx";
 
-//OBJETOS ARTICULO
-const heladera = new Articulo(1, Heladera, "Heladera", 229734);
-const lavavajillas = new Articulo(2, Lavavajillas, "lavavajillas", 229734);
-const combo = new Articulo(
+//OBJETOS ProductCardModel
+const heladera = new ProductCardModel(1, Heladera, "Heladera", 229734);
+const lavavajillas = new ProductCardModel(2, Lavavajillas, "lavavajillas", 229734);
+const combo = new ProductCardModel(
   3,
   Combo,
   "Combo cafetera, tostadora y juguera",
   229734
 );
-const caloventor = new Articulo(4, Caloventor, "Caloventor", 229734);
-const aireAcondicionado = new Articulo(
+const caloventor = new ProductCardModel(4, Caloventor, "Caloventor", 229734);
+const aireAcondicionado = new ProductCardModel(
   5,
   AireAcondicionado,
   "Aire acondicionado",
   229734
 );
-const airFryer = new Articulo(6, AirFryer, "Freidora de aire", 229734);
-const hornito = new Articulo(7, Hornito, "Hornito", 229734);
-const horno = new Articulo(8, Horno, "Horno", 229734);
-const trituradora = new Articulo(9, Trituradora, "Trituradora", 229734);
-const microondas = new Articulo(10, Microondas, "Microondas", 229734);
-const pavaElectrica = new Articulo(11, PavaElectrica, "Pava electrica", 229734);
-const tostadora = new Articulo(12, Tostadora, "Tostadora", 229734);
+const airFryer = new ProductCardModel(6, AirFryer, "Freidora de aire", 229734);
+const hornito = new ProductCardModel(7, Hornito, "Hornito", 229734);
+const horno = new ProductCardModel(8, Horno, "Horno", 167000);
+const trituradora = new ProductCardModel(9, Trituradora, "Trituradora", 229734);
+const microondas = new ProductCardModel(10, Microondas, "Microondas", 229734);
+const pavaElectrica = new ProductCardModel(11, PavaElectrica, "Pava electrica", 229734);
+const tostadora = new ProductCardModel(12, Tostadora, "Tostadora", 229734);
 
 const articles = [
   heladera,
@@ -57,21 +57,19 @@ const articles = [
   tostadora,
 ];
 
-export function Electrodomestic_Articles() {
+export const Electrodomestic_Articles = () => {
   return (
-    <>
-      <section className="flex justify-center p-5">
-        <Recommendation_carousel>
-          {articles.map((art, i) => (
-            <div
-              key={i}
-              className="articulos-card flex-shrink-0 w-[190px] h-[290px]"
-            >
-              <ArticleCard product={art}></ArticleCard>
-            </div>
-          ))}
-        </Recommendation_carousel>
-      </section>
-    </>
+    <section className="flex justify-center p-5">
+      <Recommendation_carousel>
+        {articles.map((art, i) => (
+          <div
+            key={i}
+            className="ProductCardModels-card flex-shrink-0 w-[190px] h-[290px]"
+          >
+            <ProductCard product={art}/>
+          </div>
+        ))}
+      </Recommendation_carousel>
+    </section>
   );
 }

@@ -1,0 +1,7 @@
+.nav-user-menu-item{
+    margin-left: 22px;
+}
+
+.nav-user-menu-item:last-child{
+    margin-right: 22px;
+}

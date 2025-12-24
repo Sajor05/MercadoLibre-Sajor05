@@ -1,26 +1,25 @@
-import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
-import { Home } from "./components/Home/Home";
-import { Login } from "./components/accounts/signin/Login";
-import { Register } from "./components/accounts/signup/Register";
+import { Home } from "./pages/Home/Home";
+import { Login } from "./pages/accounts/signin/Login";
+import { Register } from "./pages/accounts/signup/Register";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { AuthProvider } from "./context/AuthContext";
 import "./App.css";
 
 function App() {
   return (
-    <>
+    <AuthProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home></Home>}></Route>
-          <Route path="/iniciar-sesion" element={<Login></Login>}></Route>
-          <Route path="/registrate" element={<Register></Register>}></Route>
+          <Route path="/" element={<Home/>}></Route>
+          <Route path="/iniciar-sesion" element={<Login/>}></Route>
+          <Route path="/registrate" element={<Register/>}></Route>
         </Routes>
 
         <div className="mt-[20px]">
-          <Footer></Footer>
+          <h1>Footer</h1>
         </div>
-      </BrowserRouter>
-    </>
+      </BrowserRouter>      
+    </AuthProvider>
   );
 }
 
