@@ -1,6 +1,6 @@
-import { ChevronLeft, ChevronRight } from "react-feather";
-import "./Recommendation_carousel.css"
+import "./Offer_carousel.css"
 import { useState, useRef } from "react";
+import { ChevronLeft, ChevronRight } from "react-feather";
 
 export function Recommendation_carousel({ children: slides }) {
   const [curr, setCurr] = useState(0);
@@ -45,8 +45,3 @@ export function Recommendation_carousel({ children: slides }) {
     </div>
   );
 }
-
-/*
-iba donde esta el comentario:
-
-*/

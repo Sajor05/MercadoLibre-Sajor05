@@ -1,22 +1,14 @@
-article {
-  background-color: #fff;
-  border-radius: 6x;
-}
-
 div article .recomendation-carousel-article-header {
   text-align: center;
 }
 
-div article div a:hover {
-  color: blue;
+.quickaccess-card{
+  background-color: #fff;
+  border-radius: 6px;  
 }
 
 .recomendation-carousel-article-title-ml {
   margin-bottom: 40px;
-}
-
-.quickacces-card{
-  border-radius: 6px;
 }
 
 .recomendation-carousel-article-footer-button{

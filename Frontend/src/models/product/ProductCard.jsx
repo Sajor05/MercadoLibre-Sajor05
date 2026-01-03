@@ -5,7 +5,10 @@ export const ProductCard = ({ product }) => {
         <img
           src={product.image}
           alt={product.title}
-          className="h-[150px] w-[150px]"
+          style={{
+                  width:`173px`,
+                  height:`173px`
+                }}
         />
       </div>
       <div className="recomendation-carousel-article-title text-justify text-sm line-clamp-2 px-2">
@@ -21,7 +24,7 @@ export const ProductCard = ({ product }) => {
         </div>
         <div className="recomendation-carousel-article-actual-price text-lg">
           <span>
-            $<span>{product.price} </span>
+            $<span>{product.current_price} </span>
           </span>
           <span className="text-xs text-[#00a650]">13% OFF</span>
         </div>

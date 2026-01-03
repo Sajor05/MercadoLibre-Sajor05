@@ -12,14 +12,14 @@ const ButtonCard = ({text}) => {
 
 export const QuickAccessCard = ({title, image, description, button_text}) => {
   return (
-    <article className="quickacces-card p-5 h-[285px]">
+    <article className="quickaccess-card p-5 flex-shrink-0 w-[183px] h-[300px] cursor-pointer">
       <div className="recomendation-carousel-article-header">
         <h2 className="article-recomendation-title text-sm/8 font-bold">
           {title}
         </h2>
       </div>
       <div className="recomendation-carousel-article-img flex text-center justify-center">
-        <img src={image} alt="#" className="h-[105px] w-[105]" />
+        <img src={image} alt="#" className="h-[105px] w-[105px]" />
       </div>
       <div className="recomendation-carousel-article-title-ml text-center text-sm">
         <Link to="#">

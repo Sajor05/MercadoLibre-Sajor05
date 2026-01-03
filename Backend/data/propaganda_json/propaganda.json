@@ -1,0 +1,23 @@
+[
+    {
+        "img" : "https://http2.mlstatic.com/D_NQ_756976-MLA91969649935_092025-OO.webp",
+        "header_text" : "equipá tu hogar",
+        "oferta" : "¡Hasta 35% OFF y 6X sin interés!",
+        "button_text" : "Ver ofertas",
+        "color":"#007381"
+    },
+    {
+        "img" : "https://http2.mlstatic.com/D_NQ_799208-MLA91969836725_092025-OO.webp",
+        "header_text" : "en tecnología",
+        "oferta" : "¡Hasta 35% OFF y 6X sin interés!",
+        "button_text" : "Ver ofertas",
+        "color":"#000000"
+    },
+    {
+        "img" : "https://http2.mlstatic.com/D_NQ_836487-MLA83504638531_042025-OO.webp",
+        "header_text" : "aventura y deporte",
+        "oferta" : "¡Hasta 35% OFF y 6X sin interés!",
+        "button_text" : "Ver ofertas",
+        "color":"#007381"
+    }
+]

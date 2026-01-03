@@ -1,23 +1,19 @@
 import axios from "axios"
-import { useState, useEffect } from "react";
-import { ProductCard } from "../../../../models/product/ProductCard";
-import { Recommendation_carousel } from "../../Recommendation_carrousel.jsx";
+import { useState, useEffect } from "react"
+import { ProductCard } from "../../../../../models/product/ProductCard"
+import {Offer_carousel } from "../../../../../components/carousel/offer_carousel/Offer_carousel"
 
-export function Electrodomestic_Articles(){
+export function Offer_Articles() {
   const [items, setItems] = useState([])
-  useEffect(() => { 
+  useEffect( () => {
     const fetchData = async () => {
-      try {
         const res = await axios.get("http://localhost:4000/api/productsjson")
         setItems(res.data)
-      } catch (error) {
-        console.log(error)
-      }
     }; fetchData()
   }, [])
   return (
     <section className="flex justify-center p-5">
-      <Recommendation_carousel>
+      <Offer_carousel>
         {items.map((art, i) => (
           <div
             key={i}
@@ -26,7 +22,7 @@ export function Electrodomestic_Articles(){
             <ProductCard product={art}/>
           </div>
         ))}
-      </Recommendation_carousel>
+      </Offer_carousel>
     </section>
-  );
+  )
 }

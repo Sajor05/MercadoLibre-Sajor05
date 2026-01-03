@@ -14,10 +14,6 @@ function App() {
           <Route path="/iniciar-sesion" element={<Login/>}></Route>
           <Route path="/registrate" element={<Register/>}></Route>
         </Routes>
-
-        <div className="mt-[20px]">
-          <h1>Footer</h1>
-        </div>
       </BrowserRouter>      
     </AuthProvider>
   );

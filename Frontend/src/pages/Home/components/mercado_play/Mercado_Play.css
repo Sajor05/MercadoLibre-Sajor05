@@ -1,3 +1,42 @@
-.mercadoplay-container img {
+.mercadoplay-button{
+  border-color: rgba(0, 0, 0, 0);
+  height: 32px;
+  padding: 9px 12px 7px;
   border-radius: 5px;
+  gap: 10px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.mercadoplay-button-content{
+  font-weight: 600;
+}
+
+.mercadoplay-container{
+  background-image: url("https://http2.mlstatic.com/D_NQ_803027-MLU74643615266_022024-OO.webp");
+  padding: 20px 10px;
+  border-radius: 6px;
+}
+
+.mercadoplay-title-container{
+  margin-left: 20px;
+}
+
+.primary-title{
+  line-height: 35px;
+}
+
+.pill{
+  background-color: #00A650;
+  border-radius: 12px;
+  width: 61px;
+  padding: 5px 8px;
+  margin-top: 8px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
 }

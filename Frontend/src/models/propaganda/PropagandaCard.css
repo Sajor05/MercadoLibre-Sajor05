@@ -1,0 +1,30 @@
+.propadangaCard-container{
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    height: 130px;
+    max-width: 582px;
+    width: 100%;
+}
+
+.propagandaCard-left{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 335px;
+    width: 100%;    
+}
+
+.propagandaCard-info-container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.propagandaCard-info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
