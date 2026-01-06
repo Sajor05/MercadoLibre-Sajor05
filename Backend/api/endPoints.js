@@ -4,8 +4,9 @@ import { login } from "../controllers/loginController.js";
 import { register } from "../controllers/registerController.js";
 import { verifyToken } from "../controllers/tokenController.js";
 import { quickaccessController } from "../controllers/jsonController.js"
-import { propagandaController } from "../controllers/propagandaController.js"
+import {offerProductsController} from "../controllers/jsonController.js"
 import { productsController } from "../controllers/productsController.js";
+import { propagandaController } from "../controllers/propagandaController.js"
 
 const router = Router()
 /*-----------
@@ -19,8 +20,9 @@ router.post("/login", login);
 ---------*/
 router.get("/user", user);
 router.get("/verify", verifyToken)
+router.get("/productsjson", productsController)
 router.get("/accessjson", quickaccessController)
 router.get("/propagandajson", propagandaController)
-router.get("/productsjson", productsController)
+router.get("/offersproductsjson", offerProductsController)
 
 export default router;

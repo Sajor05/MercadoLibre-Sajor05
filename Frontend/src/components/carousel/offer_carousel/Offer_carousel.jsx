@@ -2,7 +2,7 @@ import "./Offer_carousel.css"
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "react-feather";
 
-export function Recommendation_carousel({ children: slides }) {
+export function Offer_carousel({ children: slides }) {
   const [curr, setCurr] = useState(0);
   const visibleCount = 6;
   const containerRef = useRef(null);
@@ -28,16 +28,16 @@ export function Recommendation_carousel({ children: slides }) {
         }}>
         {slides}
       </div>
-      <div className="absolute inset-0 flex items-center justify-between p-4">
+      <div className="absolute inset-0 items-center p-4 pointer-events-none">
         <button
           onClick={prev}
-          className="prev-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer"
+          className="offer-prev-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer pointer-events-auto"
         >
           <ChevronLeft size={40} color="skyblue"></ChevronLeft>
         </button>
         <button
           onClick={next}
-          className="next-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer"
+          className="offer-next-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer pointer-events-auto"
         >
           <ChevronRight size={40} color="skyblue"></ChevronRight>
         </button>

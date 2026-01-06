@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 export const ProductCard = ({ product }) => {
   return (
-    <article className="p-5 rounded-md">
+    <Link to={`/detail/${product.id}`} className="p-5 rounded-md">
       <div className="flex justify-center recomendation-carousel-article-img text-center p-2">
         <img
-          src={product.image}
+          src={product.images[0]}
           alt={product.title}
           style={{
                   width:`173px`,
@@ -12,7 +14,7 @@ export const ProductCard = ({ product }) => {
         />
       </div>
       <div className="recomendation-carousel-article-title text-justify text-sm line-clamp-2 px-2">
-        <a href="#">{product.title}</a>
+        <p>{product.title}</p>
       </div>
       <section className="recomendation-carousel-article-price-container px-2">
         <div className="recomendation-carousel-article-old-price text-xs">
@@ -32,6 +34,6 @@ export const ProductCard = ({ product }) => {
       <footer className="recomendation-carousel-article-footer-container">
         <span className="text-xs text-[#00a650]">Envío gratis</span>
       </footer>
-    </article>
+    </Link>
   );
 }

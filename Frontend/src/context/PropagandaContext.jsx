@@ -12,9 +12,9 @@ const NotIsAuthenticatedPropaganda = () => {
 
 const IsAuthenticatedPropaganda = () => {
     return(
-        <>
+        <section className="mt-25">
           <Related_history/>
-        </>
+        </section>
     );
 }
 

@@ -7,7 +7,7 @@ export function Offer_Articles() {
   const [items, setItems] = useState([])
   useEffect( () => {
     const fetchData = async () => {
-        const res = await axios.get("http://localhost:4000/api/productsjson")
+        const res = await axios.get("http://localhost:4000/api/offersproductsjson")
         setItems(res.data)
     }; fetchData()
   }, [])

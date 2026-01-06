@@ -28,16 +28,16 @@ export function Recommendation_carousel({ children: slides }) {
         }}>
         {slides}
       </div>
-      <div className="absolute inset-0 flex items-center justify-between p-4">
+      <div className="absolute inset-0 flex items-center justify-between p-4 pointer-events-none">
         <button
           onClick={prev}
-          className="prev-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer"
+          className="prev-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer pointer-events-auto"
         >
           <ChevronLeft size={40} color="skyblue"></ChevronLeft>
         </button>
         <button
           onClick={next}
-          className="next-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer"
+          className="next-button p-1 rounded-full shadow bg-white text-gray-800 cursor-pointer pointer-events-auto"
         >
           <ChevronRight size={40} color="skyblue"></ChevronRight>
         </button>

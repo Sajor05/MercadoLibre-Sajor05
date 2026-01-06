@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import {ProductCard} from "../../../models/product/ProductCard.jsx"
 import { Recommendation_carousel } from "../Recommendation_carrousel.jsx";
 
 

@@ -13,3 +13,15 @@ export const quickaccessController = async (req, res) => {
         res.status(500).json({message : "Error interno del servidor"})
     }
 }
+
+export const offerProductsController = async (req, res) => {
+    try {
+        const absolutePath = path.join(cwd(), "data", "offers_json", "offers.json")
+        const data = await fs.readFile(absolutePath, "utf-8")
+        const jsonData = JSON.parse(data)
+        res.status(200).json(jsonData)
+    } catch (error) {
+        console.log(error)
+        res.send(500).json({message:"Error interno del servidor"})
+    }
+}

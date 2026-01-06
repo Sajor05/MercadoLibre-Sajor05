@@ -54,9 +54,9 @@ export const Navbar = () => {
 
         <div className="flex items-end justify-end pb-1">
           <NavUserMenuList />
-          <a href="#">
+          <NavLink to="/carrito">
             <FontAwesomeIcon className="cart-icon" icon={faCartShopping } style={{color: "#000000",}} />
-          </a>
+          </NavLink>
         </div>
 
       </div>
