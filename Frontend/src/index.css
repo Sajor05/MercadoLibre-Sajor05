@@ -1,5 +1,10 @@
 @import "tailwindcss";
+@import "@fontsource/montserrat/300.css";
+@import "@fontsource/montserrat/400.css";
+@import "@fontsource/montserrat/600.css";
 body {
-  font-family: Proxima Nova, -apple-system, Helvetica Neue, helvetica, roboto, arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.3px;
+  -webkit-font-smoothing: antialiased;
   background-color: #e7e7e7;
 }

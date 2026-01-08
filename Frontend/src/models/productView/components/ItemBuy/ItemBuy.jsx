@@ -1,6 +1,8 @@
 import "../css/ItemBuy.css"
 import { BuyNowButton } from "./components/BuyNowButton"
 import { AddCartButton } from "./components/AddCartButton"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons"
 
 //P R I N C I P A L
 export const ItemBuy = ({item}) => {
@@ -38,9 +40,9 @@ const ItemStockContainer = ({item}) => {
     return(
         <div className="item-stock-container mt-4">
             <p className="item-stock-title">Stock disponible</p>
-            Cantidad: <span className="font-bold">1 unidad</span>
-            <button>a</button>
-            <span className="text-gray-400 text-[12px]"> (+{item.stock} disponibles)</span>
+            Cantidad: <span className="font-bold">1 unidad </span>
+            <a><FontAwesomeIcon icon={faChevronDown}/></a>
+            <span className="text-gray-400 text-[12px]"> (+{item.stockCount} disponibles)</span>
         </div>
     )
 }

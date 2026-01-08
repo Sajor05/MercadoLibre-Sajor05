@@ -8,8 +8,8 @@ export const ProductCard = ({ product }) => {
           src={product.images[0]}
           alt={product.title}
           style={{
-                  width:`173px`,
-                  height:`173px`
+                  width:`171px`,
+                  height:`171px`
                 }}
         />
       </div>

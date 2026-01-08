@@ -8,6 +8,8 @@ export const productsController = async (req, res) => {
         const data = await fs.readFile(absolutePath, "utf-8")
         const jsonData = JSON.parse(data)
         res.status(200).json(jsonData)
+        console.log(jsonData)
+        console.log(jsonData.length)
     } catch (error) {
         console.log(error)
         res.status(500).json({message:"Error interno del servidor"})

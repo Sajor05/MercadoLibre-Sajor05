@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.21.22/mercadolibre/favicon.svg">    
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>  
+    <title>Sistema de gestión de productos | ML Clon</title>
+</head>
+<body class="bg-gray-100 pb-10">
+    <Header class="flex justify-center text-center p-10 bg-[#ffe600] mb-10 shadow-lg">
+       <h1 class="text-5xl font-bold">Sistema de gestión 
+        <span class="block">de productos</span>
+       </h1>
+    </Header>
+    <main class="max-w-4xl mx-auto px-4">
+        <div class="bg-white border border-gray-300 rounded-lg p-8 shadow-md">
+            <form action="" id="form-data">
+                
+                <h2 class="text-2xl font-bold mb-4 text-gray-800 border-b pb-2">Datos del producto</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Título del producto</label>
+                        <input type="text" name="title" placeholder="Ej: Freidora de Aire..." class="bg-gray-50 p-2 rounded border border-gray-300">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Precio</label>
+                        <input type="number" name="price" placeholder="$..." class="bg-gray-50 p-2 rounded border border-gray-300">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">ID del producto</label>
+                        <input type="number" name="id" placeholder="ID..." class="bg-gray-50 p-2 rounded border border-gray-300">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Stock</label>
+                        <input type="number" name="stockCount" placeholder="Cantidad..." class="bg-gray-50 p-2 rounded border border-gray-300">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Cuotas (cuotes)</label>
+                        <input type="number" name="cuotes" placeholder="Ej: 12" class="bg-gray-50 p-2 rounded border border-gray-300">
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">¿Está en oferta?</label>
+                        <select name="isOffer" class="bg-gray-50 p-2 rounded border border-gray-300">
+                            <option value="false">false</option>
+                            <option value="true">true</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Porcentaje de oferta</label>
+                        <input type="number" name="offer" placeholder="Ej: 20" class="bg-gray-50 p-2 rounded border border-gray-300">
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold mb-4 text-gray-800 border-b pb-2 mt-8">Categoría</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 bg-blue-50 p-4 rounded-lg">
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Categoría Principal</label>
+                        <input type="text" name="cat_principal" placeholder="Ej: electrodomesticos" class="bg-white p-2 rounded border border-gray-300">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Sub-Categoría</label>
+                        <input type="text" name="cat_sub" placeholder="Ej: Jarras Elétricas" class="bg-white p-2 rounded border border-gray-300">
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold mb-4 text-gray-800 border-b pb-2 mt-8">Vendedor</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 bg-yellow-50 p-4 rounded-lg">
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Nombre del vendedor</label>
+                        <input type="text" name="seller_name" placeholder="Ej: ajaxgold" class="bg-white p-2 rounded border border-gray-300">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Ventas totales (sellCount)</label>
+                        <input type="number" name="seller_count" placeholder="Ej: 100000" class="bg-white p-2 rounded border border-gray-300">
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Tipo de Factura</label>
+                        <input type="text" name="seller_bill" placeholder="Ej: A" class="bg-white p-2 rounded border border-gray-300">
+                    </div>
+                    
+                    <div class="col-span-1 md:col-span-2 border-t border-yellow-200 pt-4 mt-2">
+                        <h3 class="font-bold text-gray-700 mb-2">Datos MercadoLíder</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="flex flex-col">
+                                <label class="text-sm font-medium">¿Es MercadoLíder?</label>
+                                <select name="seller_isML" class="bg-white p-2 rounded border border-gray-300">
+                                    <option value="false">Falso</option>
+                                    <option value="true">Verdadero</option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col">
+                                <label class="text-sm font-medium">Seguidores</label>
+                                <input type="number" name="seller_followers" placeholder="0" class="bg-white p-2 rounded border border-gray-300">
+                            </div>
+                            <div class="flex flex-col">
+                                <label class="text-sm font-medium">Cant. Productos</label>
+                                <input type="number" name="seller_products" placeholder="0" class="bg-white p-2 rounded border border-gray-300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold mb-4 text-gray-800 border-b pb-2 mt-8">Detalles e Imágenes</h2>
+                <div class="flex flex-col gap-6 mb-6">
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Imágenes (Una URL por línea)</label>
+                        <textarea name="images_list" rows="4" class="bg-gray-50 p-2 rounded border border-gray-300 font-mono text-sm" placeholder="https://imagen1.webp&#10;https://imagen2.webp"></textarea>
+                    </div>
+                    <div class="flex flex-col">
+                        <label class="text-lg font-medium">Detalles (Uno por línea)</label>
+                        <textarea name="details_list" rows="4" class="bg-gray-50 p-2 rounded border border-gray-300" placeholder="Voltaje: 220V.&#10;Potencia de 1.7 kW..."></textarea>
+                    </div>
+                </div>
+
+                <button type="submit" class="w-full bg-[#3483fa] hover:bg-[#2968c8] text-white font-bold py-3 px-4 rounded-lg transition duration-300 text-lg cursor-pointer">
+                    Listo
+                </button>                    
+            </form>          
+        </div>
+    </main>
+    <footer class="text-center mt-10 text-gray-500">
+        Gracias ger :D
+    </footer>
+    <script src="./script/serializer.js" type="module"></script>
+</body>
+</html>
