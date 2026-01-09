@@ -8,7 +8,7 @@ export function DoublePropagandaContainer() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/api/propagandajson")
+        const res = await axios.get("https://mercadolibre-sajor05.onrender.com/api/propagandajson")
         const primerosDos = res.data.slice(0,2)
         setData(primerosDos)
       } catch (error) {
