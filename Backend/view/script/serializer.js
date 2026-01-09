@@ -1,54 +1,68 @@
-import axios from "axios"
+export function createProductController() {
+    //Script del front, el back no entiende el document
+    const form = document.getElementById("form-data");
 
-const form = document.getElementById("form-data");
-
-form.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    
-    const formData = new FormData(event.target);
-    
-    const textToArray = (text) => {
-        return text ? text.split('\n').map(line => line.trim()).filter(line => line !== '') : [];
-    };
-
-    const newProductJSON = {
-        id: Number(formData.get('id')),
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault();
         
-        images: textToArray(formData.get('images_list')),
-        details: textToArray(formData.get('details_list')),
+        const formData = new FormData(event.target);
         
-        seller: {
-            name: formData.get('seller_name'),
-            mlSeller: {
-                isMLSeller: formData.get('seller_isML') === 'true',
-                followersCount: Number(formData.get('seller_followers')) || 0,
-                productsCount: Number(formData.get('seller_products')) || 0
+        const textToArray = (text) => {
+            return text ? text.split('\n').map(line => line.trim()).filter(line => line !== '') : [];
+        };
+
+        const newProductJSON = {
+            id: Number(formData.get('id')),
+            
+            images: textToArray(formData.get('images_list')),
+            details: textToArray(formData.get('details_list')),
+            
+            seller: {
+                name: formData.get('seller_name'),
+                logo: formData.get("logo"),
+                mlSeller: {
+                    isMLSeller: formData.get('seller_isML') === 'true',
+                    followersCount: Number(formData.get('seller_followers')) || 0,
+                    productsCount: Number(formData.get('seller_products')) || 0
+                },
+                sellCount: Number(formData.get('seller_count')),
+                billType: formData.get('seller_bill')
             },
-            sellCount: Number(formData.get('seller_count')),
-            billType: formData.get('seller_bill')
-        },
-        
-        category: {
-            principalCategory: formData.get('cat_principal'),
-            subCategory: formData.get('cat_sub')
-        },
-        
-        isOffer: formData.get('isOffer') === 'true',
-        offer: Number(formData.get('offer')),
-        
-        cuotes: Number(formData.get('cuotes')) || 0,
-        
-        stockCount: Number(formData.get('stockCount')),
-        title: formData.get('title'),
-        price: Number(formData.get('price'))
-    };
+            
+            category: {
+                principalCategory: formData.get('cat_principal'),
+                subCategory: formData.get('cat_sub')
+            },
+            
+            isOffer: formData.get('isOffer') === 'true',
+            offer: Number(formData.get('offer')),
+            
+            cuotes: Number(formData.get('cuotes')) || 0,
+            
+            stockCount: Number(formData.get('stockCount')),
+            title: formData.get('title'),
+            description: formData.get("description"),
+            price: Number(formData.get('price'))
+        };
 
-    console.log("Enviando JSON:", JSON.stringify(newProductJSON, null, 2));
+        try {
+            const response = await fetch("http://localhost:4000/api/productsjson", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json" // Importante para que Node entienda el JSON
+                },
+                body: JSON.stringify(newProductJSON)
+            });
 
-    try {
-        await axios.post("http://localhost:4000/api/productsjson", newProductJSON);
-        form.reset();
-    } catch (error) {
-        console.error("Error al guardar:", error);
-    }
-});
+            if (response.ok) {
+                console.log("¡Guardado con éxito!");
+                form.reset();
+            }else {
+                console.error("Error del servidor:", response.status);
+            }
+        } catch (error) {
+            console.error("Error al guardar:", error);
+
+        }
+    });    
+}

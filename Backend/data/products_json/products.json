@@ -1,351 +1,473 @@
 [
-{
-"id":1,
-"images":[
-    "https://http2.mlstatic.com/D_NQ_NP_2X_733522-MLA99451388852_112025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_637798-MLU78930776362_092024-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_831365-MLU78930746804_092024-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_776151-MLU78930531678_092024-F.webp"
+  {
+    "id": 1,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_733522-MLA99451388852_112025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_637798-MLU78930776362_092024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_831365-MLU78930746804_092024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_776151-MLU78930531678_092024-F.webp"
     ],
-"details":[
-    "Voltaje: 220V.",
-    "Potencia de 1.7 kW para un calentamiento rápido y eficiente.",
-    "Capacidad de 3.5L, ideal para familias de hasta 3 personas.",
-    "Control táctil digital para ajustar tiempo y temperatura con facilidad.",
-    "Tecnología 360º de circulación de aire para una cocción uniforme y crujiente."],
-"seller":{
-    "name":"mercado libre",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":100000,
-    "billType":""},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Jarras Elétricas"
+    "details": [
+      "Voltaje: 220V.",
+      "Potencia de 1.7 kW para un calentamiento rápido y eficiente.",
+      "Capacidad de 3.5L, ideal para familias de hasta 3 personas.",
+      "Control táctil digital para ajustar tiempo y temperatura con facilidad.",
+      "Tecnología 360º de circulación de aire para una cocción uniforme y crujiente."
+    ],
+    "seller": {
+      "name": "mercado libre",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 100000,
+      "billType": ""
     },
-"isOffer":true,
-"offer":20,
-"cuotes":2,
-"stockCount":50,
-"title":"Freidora De Aire Daihatsu Francis Dh508 3.5l 1500-1700 Watts Color Negro",
-"price":52799
-},
-{"id":2,
-"images":[
-    "https://http2.mlstatic.com/D_NQ_NP_2X_730552-MLA99848329761_112025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_883486-MLA82612552269_022025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_668403-MLA82328020766_022025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_834500-MLA82327884346_022025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_988853-MLA82327884354_022025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_947754-MLA93542919488_102025-F.webp",
-    "https://http2.mlstatic.com/D_NQ_NP_2X_677823-MLA87504949705_072025-F.webp"],
-"details":[
-        "Voltaje: 220V.",
-        "Ubicación side by side del freezer.",
-        "Dimensiones: 89.7 cm de ancho, 1.765 m de alto y 70.6 cm de profundidad.",
-        "Cuenta con organizador de botellas y huevera."],
-"seller":{
-    "name":"mercado libre",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":100000,
-    "billType":"A"},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Jarras Elétricas"
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Jarras Elétricas"
     },
-"isOffer":true,
-"offer":20,
-"cuotes":2,
-"stockCount":50,
-"title":"Heladera Inverter Midea Side By Side Inox 510lts C/dispenser Color Acero inoxidable",
-"price":1699999
-},
-{"id":3,
-"images":["https://http2.mlstatic.com/D_NQ_NP_2X_873287-MLA99970594913_112025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_649052-MLA80410525616_112024-F.webp"],
-"details":[
-    "Cantidad de hornallas: 4.",
-    "Tipo de gas: Multigas.",
-    "Tipo de puerta del horno: Con visor.",
-    "Tipo de alimentación: Gas.",
-    "Eficiencia energética de las hornallas: A.",
-    "Profundidad: 58 cm.",
-    "Válvulas de seguridad para mayor protección.",
-    "Convertible a GN y GLP para flexibilidad de uso.",
-    "Montaje de pie que facilita su instalación."],
-"seller":{
-    "name":"magazzino",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":100000,
-    "billType":"A"},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Jarras Elétricas"
+    "isOffer": true,
+    "offer": 20,
+    "cuotes": 2,
+    "stockCount": 50,
+    "title": "Freidora De Aire Daihatsu Francis Dh508 3.5l 1500-1700 Watts Color Negro",
+    "description": "",
+    "price": 52799
+  },
+  {
+    "id": 2,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_730552-MLA99848329761_112025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_883486-MLA82612552269_022025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_668403-MLA82328020766_022025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_834500-MLA82327884346_022025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_988853-MLA82327884354_022025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_947754-MLA93542919488_102025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_677823-MLA87504949705_072025-F.webp"
+    ],
+    "details": [
+      "Voltaje: 220V.",
+      "Ubicación side by side del freezer.",
+      "Dimensiones: 89.7 cm de ancho, 1.765 m de alto y 70.6 cm de profundidad.",
+      "Cuenta con organizador de botellas y huevera."
+    ],
+    "seller": {
+      "name": "mercado libre",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 100000,
+      "billType": "A"
     },
-"isOffer":true,
-"offer":7,
-"cuotes":2,
-"stockCount":25,
-"title":"Cocina Volcan Multigas 87679v 55 Cm Color Plateado",
-"price":464575
-},
-{"id":4,
-"images":["https://http2.mlstatic.com/D_NQ_NP_2X_904502-MLA99466372466_112025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_937211-MLA93346744721_092025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_675376-MLA93346063095_092025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_885102-MLA92932064114_092025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_603950-MLA93346092921_092025-F.webp"],
-"details":[
-    "Voltaje: 220V.",
-    "Potencia de 700 W para cocción rápida y eficiente.",
-    "Capacidad de 20 litros ideal para diversas recetas.",
-    "Descongelación automática por peso para mayor comodidad.",
-    "Bandeja giratoria que asegura calor uniforme.",
-    "Timer de 35 minutos para un control preciso en la cocción.",
-    "Luz interior que permite supervisar el proceso de cocción."],
-"seller":{
-    "name":"tio musa",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":50000,
-    "billType":""},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Jarras Elétricas"
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Jarras Elétricas"
     },
-"isOffer":true,
-"offer":6,
-"cuotes":2,
-"stockCount":50,
-"title":"Microondas Digital Philco Wphdb20 Negro 20l 10 Niveles 700w",
-"price":148999
-},
-{"id":5,
-"images":["https://http2.mlstatic.com/D_Q_NP_832718-MLA96898439498_112025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_637798-MLU78930776362_092024-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_831365-MLU78930746804_092024-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_776151-MLU78930531678_092024-F.webp"],
-"details":[
-    "Voltaje: 220V.",
-    "Cafetera de filtro.",
-    "Su capacidad es de 1.2 L.",
-    "Con cuchara.",
-    "Permite llenar 12 tazas.",
-    "Potencia de 830 W.",
-    "Con dispositivo de antigoteo."],
-"seller":{
-    "name":"suono",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":100000,
-    "billType":"A"},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Jarras Elétricas"
+    "isOffer": true,
+    "offer": 20,
+    "cuotes": 2,
+    "stockCount": 50,
+    "title": "Heladera Inverter Midea Side By Side Inox 510lts C/dispenser Color Acero inoxidable",
+    "description": "",
+    "price": 1699999
+  },
+  {
+    "id": 3,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_873287-MLA99970594913_112025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_649052-MLA80410525616_112024-F.webp"
+    ],
+    "details": [
+      "Cantidad de hornallas: 4.",
+      "Tipo de gas: Multigas.",
+      "Tipo de puerta del horno: Con visor.",
+      "Tipo de alimentación: Gas.",
+      "Eficiencia energética de las hornallas: A.",
+      "Profundidad: 58 cm.",
+      "Válvulas de seguridad para mayor protección.",
+      "Convertible a GN y GLP para flexibilidad de uso.",
+      "Montaje de pie que facilita su instalación."
+    ],
+    "seller": {
+      "name": "magazzino",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 100000,
+      "billType": "A"
     },
-"isOffer":false,
-"offer":20,
-"cuotes":2,
-"stockCount":50,
-"title":"Cafetera De Filtro Eléctrica Suono 12 Tazas 1200ml Antigoteo Color Negro",
-"price":40199
-},
-
-
-{"id":6,
-"images":["https://http2.mlstatic.com/D_Q_NP_811707-MLA99483714102_112025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_686419-MLA90381862998_082025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_743983-MLA90768680413_082025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_712575-MLA90381843160_082025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_854139-MLA90768563701_082025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_697405-MLA90768631497_082025-F.webp"],
-"details":[
-    "Voltaje: 220V.",
-    "Potencia de 2200w.",
-    "Con capacidad para 1.7 litros.",
-    "Con apagado automático.",
-    "Cuenta con pantalla digital.",
-    "Posee indicador de nivel del agua.",
-    "Tiene función mate.",
-    "Cuenta con base giratoria.",
-    "Tecnología y rapidez para tus infusiones."],
-"seller":{
-    "name":"ajaxgold",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":100000,
-    "billType":"A"},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Jarras Elétricas"
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Jarras Elétricas"
     },
-"isOffer":true,
-"offer":31,
-"cuotes":2,
-"stockCount":50,
-"title":"Pava Eléctrica Unnic Pantalla Digital Color Táctil Acero Inoxidable 1.7 L Temperatura Prestablecidas Ideal Para Mate Café Te Color Negro",
-"price":84999
-},
-
-
-
-{"id":7,
-"images":["https://http2.mlstatic.com/D_Q_NP_811100-MLA99483306104_112025-F.webp",
-          "https://http2.mlstatic.com/D_Q_NP_639358-MLA82068983485_012025-F.webp",
-          "https://http2.mlstatic.com/D_Q_NP_615402-MLA82068974117_012025-F.webp",
-          "https://http2.mlstatic.com/D_Q_NP_873155-MLA83964097195_042025-F.webp",
-          "https://http2.mlstatic.com/D_Q_NP_877805-MLA82068974143_012025-F.webp"],
-"details":[
-    "Voltaje de la unidad externa: 220V.",
-    "Voltaje: 220V.",
-    "Frigorías: 7525."],
-"seller":{
-    "name":"mercado libre",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":50000,
-    "billType":""},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Aires acondicionados"
+    "isOffer": true,
+    "offer": 7,
+    "cuotes": 2,
+    "stockCount": 25,
+    "title": "Cocina Volcan Multigas 87679v 55 Cm Color Plateado",
+    "description": "",
+    "price": 464575
+  },
+  {
+    "id": 4,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_904502-MLA99466372466_112025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_937211-MLA93346744721_092025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_675376-MLA93346063095_092025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_885102-MLA92932064114_092025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_603950-MLA93346092921_092025-F.webp"
+    ],
+    "details": [
+      "Voltaje: 220V.",
+      "Potencia de 700 W para cocción rápida y eficiente.",
+      "Capacidad de 20 litros ideal para diversas recetas.",
+      "Descongelación automática por peso para mayor comodidad.",
+      "Bandeja giratoria que asegura calor uniforme.",
+      "Timer de 35 minutos para un control preciso en la cocción.",
+      "Luz interior que permite supervisar el proceso de cocción."
+    ],
+    "seller": {
+      "name": "tio musa",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 50000,
+      "billType": ""
     },
-"title":"Aire Acondicionado Split Philco Inverter Eco Plus Frío Calor 8750w / 7525 Frigorías",
-"isOffer":false,
-"offer":0,
-"cuotes":2,
-"stockCount":4,
-"price":2249999
-},
-
-
-
-
-
-
-
-
-
-
-{"id":8,
-"images":["https://http2.mlstatic.com/D_NQ_NP_2X_951795-MLA99441364720_112025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_807413-MLA84548819220_052025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_862254-MLA84548829246_052025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_976224-MLA84847088971_052025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_618023-MLA84548819276_052025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_617769-MLA84548829286_052025-F.webp"],
-"details":[
-    "Voltaje: 220V.",
-    "Potencia máxima de 2000W.",
-    "2 niveles de potencia.",
-    "Cuenta con protección contra sobrecalentamiento.",
-    "Con selector de temperatura.",
-    "Tiene termostato.",
-    "Posee temporizador.",
-    "Fabricado en plástico.",
-    "Modos ventilación y oscilatorio incluidos.",
-    "Trae control remoto.",
-    "Medidas: 21cm de altura x 13cm de ancho x 58cm de largo."],
-"seller":{
-    "name":"Oasis",
-    "mlSeller":{
-        "isMLSeller":true,
-        "followersCount":1000,
-        "productsCount":100
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Jarras Elétricas"
     },
-    "sellCount":10000,
-    "billType":""
-},
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Caloventor"
+    "isOffer": true,
+    "offer": 6,
+    "cuotes": 2,
+    "stockCount": 50,
+    "title": "Microondas Digital Philco Wphdb20 Negro 20l 10 Niveles 700w",
+    "description": "",
+    "price": 148999
+  },
+  {
+    "id": 5,
+    "images": [
+      "https://http2.mlstatic.com/D_Q_NP_832718-MLA96898439498_112025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_637798-MLU78930776362_092024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_831365-MLU78930746804_092024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_776151-MLU78930531678_092024-F.webp"
+    ],
+    "details": [
+      "Voltaje: 220V.",
+      "Cafetera de filtro.",
+      "Su capacidad es de 1.2 L.",
+      "Con cuchara.",
+      "Permite llenar 12 tazas.",
+      "Potencia de 830 W.",
+      "Con dispositivo de antigoteo."
+    ],
+    "seller": {
+      "name": "suono",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 100000,
+      "billType": "A"
     },
-"title":"Caloventor Eléctrico Pared Tender Control Tivoli 2000w Color Blanco",
-"isOffer":false,
-"offer":0,
-"cuotes":2,
-"stockCount":50,
-"price":127999
-},
-{"id":9,
-"images":[
-          "https://http2.mlstatic.com/D_Q_NP_735276-MLA87530297142_072025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_692078-MLA87861328599_072025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_686584-MLA87861122355_072025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_954715-MLA87861141905_072025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_664169-MLA87861181489_072025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_671171-MLA87530355416_072025-F.webp"],
-"details":[
-    "Voltaje: 220V.",
-    "Hecha de acero inoxidable.",
-    "Con potencia de 0.492kW.",
-    "Dimensiones: 33cm de profundidad, 18cm de ancho y 32cm de altura.",
-    "El tamaño del disco es de 55.",
-    "El tamaño de la navaja es de 50.",
-    "Producción por hora: 100.",
-    "Es lavable.",
-    "Peso: 3.2kg."],
-"seller":{
-    "name":"Nura",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":1000,
-    "billType":"A"
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Jarras Elétricas"
     },
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Picadoras de Carne Eléctricas"
+    "isOffer": false,
+    "offer": 20,
+    "cuotes": 2,
+    "stockCount": 50,
+    "title": "Cafetera De Filtro Eléctrica Suono 12 Tazas 1200ml Antigoteo Color Negro",
+    "description": "",
+    "price": 40199
+  },
+  {
+    "id": 6,
+    "images": [
+      "https://http2.mlstatic.com/D_Q_NP_811707-MLA99483714102_112025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_686419-MLA90381862998_082025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_743983-MLA90768680413_082025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_712575-MLA90381843160_082025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_854139-MLA90768563701_082025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_697405-MLA90768631497_082025-F.webp"
+    ],
+    "details": [
+      "Voltaje: 220V.",
+      "Potencia de 2200w.",
+      "Con capacidad para 1.7 litros.",
+      "Con apagado automático.",
+      "Cuenta con pantalla digital.",
+      "Posee indicador de nivel del agua.",
+      "Tiene función mate.",
+      "Cuenta con base giratoria.",
+      "Tecnología y rapidez para tus infusiones."
+    ],
+    "seller": {
+      "name": "ajaxgold",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 100000,
+      "billType": "A"
     },
-"isOffer":true,
-"offer":15,
-"cuotes":2,
-"stockCount":50,
-"title":"Picadora De Carne Nura Mg6250r + Rayador + Triturador Tomate",
-"price":201704
-},
-
-
-{"id":10,
-"images":["https://http2.mlstatic.com/D_NQ_NP_2X_749764-MLA96634029571_102025-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_637798-MLU78930776362_092024-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_831365-MLU78930746804_092024-F.webp",
-          "https://http2.mlstatic.com/D_NQ_NP_2X_776151-MLU78930531678_092024-F.webp"],
-"details":[],
-"seller":{
-    "name":"Nura",
-    "mlSeller":{
-        "isMLSeller":false,
-        "followersCount":0,
-        "productsCount":0},
-    "sellCount":1000,
-    "billType":"A"
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Jarras Elétricas"
     },
-"category":{
-    "principalCategory":"electrodomesticos",
-    "subCategory":"Jarras Elétricas"
+    "isOffer": true,
+    "offer": 31,
+    "cuotes": 2,
+    "stockCount": 50,
+    "title": "Pava Eléctrica Unnic Pantalla Digital Color Táctil Acero Inoxidable 1.7 L Temperatura Prestablecidas Ideal Para Mate Café Te Color Negro",
+    "description": "",
+    "price": 84999
+  },
+  {
+    "id": 7,
+    "images": [
+      "https://http2.mlstatic.com/D_Q_NP_811100-MLA99483306104_112025-F.webp",
+      "https://http2.mlstatic.com/D_Q_NP_639358-MLA82068983485_012025-F.webp",
+      "https://http2.mlstatic.com/D_Q_NP_615402-MLA82068974117_012025-F.webp",
+      "https://http2.mlstatic.com/D_Q_NP_873155-MLA83964097195_042025-F.webp",
+      "https://http2.mlstatic.com/D_Q_NP_877805-MLA82068974143_012025-F.webp"
+    ],
+    "details": [
+      "Voltaje de la unidad externa: 220V.",
+      "Voltaje: 220V.",
+      "Frigorías: 7525."
+    ],
+    "seller": {
+      "name": "mercado libre",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 50000,
+      "billType": ""
     },
-"isOffer":true,
-"offer":20,
-"cuotes":2,
-"stockCount":50,
-"title":"Batidora Planetaria Fika 3 en 1 Bowl 4l 8 Velocidades 1000w Negro Frecuencia 50Hz",
-"price":119417
-}
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Aires acondicionados"
+    },
+    "title": "Aire Acondicionado Split Philco Inverter Eco Plus Frío Calor 8750w / 7525 Frigorías",
+    "description": "",
+    "isOffer": false,
+    "offer": 0,
+    "cuotes": 2,
+    "stockCount": 4,
+    "price": 2249999
+  },
+  {
+    "id": 8,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_951795-MLA99441364720_112025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_807413-MLA84548819220_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_862254-MLA84548829246_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_976224-MLA84847088971_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_618023-MLA84548819276_052025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_617769-MLA84548829286_052025-F.webp"
+    ],
+    "details": [
+      "Voltaje: 220V.",
+      "Potencia máxima de 2000W.",
+      "2 niveles de potencia.",
+      "Cuenta con protección contra sobrecalentamiento.",
+      "Con selector de temperatura.",
+      "Tiene termostato.",
+      "Posee temporizador.",
+      "Fabricado en plástico.",
+      "Modos ventilación y oscilatorio incluidos.",
+      "Trae control remoto.",
+      "Medidas: 21cm de altura x 13cm de ancho x 58cm de largo."
+    ],
+    "seller": {
+      "name": "Oasis",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": true,
+        "followersCount": 1000,
+        "productsCount": 100
+      },
+      "sellCount": 10000,
+      "billType": ""
+    },
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Caloventor"
+    },
+    "title": "Caloventor Eléctrico Pared Tender Control Tivoli 2000w Color Blanco",
+    "description": "",
+    "isOffer": false,
+    "offer": 0,
+    "cuotes": 2,
+    "stockCount": 50,
+    "price": 127999
+  },
+  {
+    "id": 9,
+    "images": [
+      "https://http2.mlstatic.com/D_Q_NP_735276-MLA87530297142_072025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_692078-MLA87861328599_072025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_686584-MLA87861122355_072025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_954715-MLA87861141905_072025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_664169-MLA87861181489_072025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_671171-MLA87530355416_072025-F.webp"
+    ],
+    "details": [
+      "Voltaje: 220V.",
+      "Hecha de acero inoxidable.",
+      "Con potencia de 0.492kW.",
+      "Dimensiones: 33cm de profundidad, 18cm de ancho y 32cm de altura.",
+      "El tamaño del disco es de 55.",
+      "El tamaño de la navaja es de 50.",
+      "Producción por hora: 100.",
+      "Es lavable.",
+      "Peso: 3.2kg."
+    ],
+    "seller": {
+      "name": "Nura",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 1000,
+      "billType": "A"
+    },
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Picadoras de Carne Eléctricas"
+    },
+    "isOffer": true,
+    "offer": 15,
+    "cuotes": 2,
+    "stockCount": 50,
+    "title": "Picadora De Carne Nura Mg6250r + Rayador + Triturador Tomate",
+    "description": "",
+    "price": 201704
+  },
+  {
+    "id": 10,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_749764-MLA96634029571_102025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_637798-MLU78930776362_092024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_831365-MLU78930746804_092024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_776151-MLU78930531678_092024-F.webp"
+    ],
+    "details": [],
+    "seller": {
+      "name": "Nura",
+      "logo": "",
+      "mlSeller": {
+        "isMLSeller": false,
+        "followersCount": 0,
+        "productsCount": 0
+      },
+      "sellCount": 1000,
+      "billType": "A"
+    },
+    "category": {
+      "principalCategory": "electrodomesticos",
+      "subCategory": "Jarras Elétricas"
+    },
+    "isOffer": true,
+    "offer": 20,
+    "cuotes": 2,
+    "stockCount": 50,
+    "title": "Batidora Planetaria Fika 3 en 1 Bowl 4l 8 Velocidades 1000w Negro Frecuencia 50Hz",
+    "description": "",
+    "price": 119417
+  },
+  {
+    "id": 11,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_2X_990086-MLA101178638292_122025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_997235-MLA101178845096_122025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_811237-MLA101178855100_122025-F.webp"
+    ],
+    "details": [
+      "Material del tapizado: Mesh.",
+      "Soporte lumbar fijo.",
+      "Cómodos apoyabrazos.",
+      "Material del relleno: espuma.",
+      "Peso máximo soportado: 140kg."
+    ],
+    "seller": {
+      "name": "Celuphone",
+      "logo": "https://http2.mlstatic.com/D_NQ_NP_727067-MLA78213217740_082024-G.jpg",
+      "mlSeller": {
+        "isMLSeller": true,
+        "followersCount": 1000,
+        "productsCount": 100
+      },
+      "sellCount": 50000,
+      "billType": "A"
+    },
+    "category": {
+      "principalCategory": "Hogar, Muebles y Jardín",
+      "subCategory": "Sillas de oficina"
+    },
+    "isOffer": true,
+    "offer": 32,
+    "cuotes": 6,
+    "stockCount": 10,
+    "title": "Set X2 Silla Oficina Escritorio Patas Fijas Ergonomica Sala Espera Reuniones Tela Mesh Negro",
+    "description": "La silla de oficina modelo CL-9050B de Circle Line es la elección ideal para quienes buscan comodidad y estilo en su espacio de trabajo. Con un diseño ergonómico, esta silla ofrece un soporte lumbar fijo que se adapta a la forma de tu espalda, promoviendo una postura saludable durante largas horas de uso. Su estructura de acero inoxidable con acabado cromado garantiza durabilidad y resistencia, mientras que el relleno de espuma proporciona una experiencia de asiento confortable.\n\nCon un peso de solo 4 kg, es fácil de mover y reubicar según tus necesidades. La silla cuenta con un respaldo de 42 cm de altura y una profundidad de asiento de 50 cm, lo que la hace adecuada para diferentes tipos de usuarios. Además, su diseño en color negro y tela mesh le otorgan un toque moderno y profesional, ideal para oficinas, salas de espera o espacios de reunión.\n\nAunque no es ajustable en altura, su altura fija de 45 cm desde el suelo permite un uso práctico y eficiente. Las patas fijas aseguran estabilidad, mientras que los reposabrazos añaden un nivel extra de confort. Este modelo es perfecto para quienes buscan una solución funcional y estética para su entorno laboral.\n\nLa silla requiere ensamblaje, pero incluye un manual que facilita el proceso. Con una capacidad de soporte de hasta 140 kg, es una opción confiable para cualquier oficina. Mejora tu espacio de trabajo con esta silla que combina ergonomía y diseño contemporáneo.",
+    "price": 199999
+  },
+  {
+    "id": 12,
+    "images": [
+      "https://http2.mlstatic.com/D_NQ_NP_958292-MLA81434828604_122024-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_972561-MLA81434828600_122024-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_918865-MLA88881275451_072025-F.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_2X_625996-MLA81434828606_122024-F.webp"
+    ],
+    "details": [],
+    "seller": {
+      "name": "adidas",
+      "logo": "https://http2.mlstatic.com/D_NQ_NP_729598-MLA74959104205_032024-G.jpg",
+      "mlSeller": {
+        "isMLSeller": true,
+        "followersCount": 250000,
+        "productsCount": 5000
+      },
+      "sellCount": 1000000,
+      "billType": ""
+    },
+    "category": {
+      "principalCategory": "Ropa y accesorios",
+      "subCategory": "Zapatillas adidas"
+    },
+    "isOffer": true,
+    "offer": 30,
+    "cuotes": 6,
+    "stockCount": 50,
+    "title": "Zapatillas adidas Fórmula1 Mercedes - Amg Unisex Jr1068",
+    "description": "Mantente cómodo y casual mientras animas a la escudería Mercedes - AMG PETRONAS F1 Team el día de la carrera o todos los días. Estas zapatillas de adidas Motorsports tienen una clásica punta en T y un exterior resistente con una suela tipo cupsole de caucho. Los colores del equipo en las 3 Tiras y el logo Mercedes - AMG PETRONAS F1 Team en el costado hacen que el look sea oficial.\n\nDetalles\n\n. Ajuste clásico\n\n. Cierre de cordones\n\n. Exterior sintético\n\n. Suela tipo cupsole de caucho\n\n. Logo de Mercedes - AMG PETRONAS F1 Team\n\nFACTURACIÓN\n\nSe informa a los consumidores que la Tienda Oficial adidas en Mercado Libre no puede emitir facturas tipo A bajo ningún concepto. Si te encuentras registrado en Mercado Libre como responsable inscripto te sugerimos:\n\nActualizar tu información de perfil desde la sección \"Mis datos\" o\n\nAntes de finalizar tu compra, actualiza esta información al validar la información de tu compra en \"Detalle del Pago\" > \"Datos de Facturación\" > \"Modificar\"\n\nTALLES\n\nEs importante que revises la Guía de Talles antes de realizar la compra para asegurarte de estar eligiendo el producto adecuado. Para verla, hacé clic donde dice \"Guía de Talles\".\n\nTené en cuenta que nuestros talles de CALZADO están basados en valores AR, que es diferente al FR/EUR (Europeo). Aunque en algunas etiquetas o cajas de calzado aún podés ver el talle FR/EUR, en nuestra tienda online sólo usamos el talle AR: recordá no confundirlos.\n\n¿Cómo medir?\n\n* Colocá tu pie en una superficie dura sobre una hoja de papel blanca con el talón contra la pared.\n\n* Marcá con un lápiz desde tu talón hasta dónde llega tu dedo más largo\n\n* Medí la distancia de tu pie marcada en la hoja, desde el borde de la hoja hasta la punta del pie en centímetros (cm)\n\n* Compará tu medida en centímetros con la tabla de talles para saber tu talle ideal.\n\nDEVOLUCIONES\n\nSi necesitás hacer una devolución, tomá en cuenta los siguientes puntos:\n\n* No hacemos cambios de talla, únicamente reembolsos de tu dinero.\n\n* Tenés hasta 30 días calendario para poder solicitar tu devolución, a partir de la fecha de recepción de tu artículo.\n\n* No aceptamos devoluciones de mascarillas, tops deportivos, trajes de baño, bodys, shorts de triatlón, medias y ropa interior.\n\n* Los productos adquiridos deberán ser devueltos en perfectas condiciones, nuevos, sin uso, con sus embalajes y etiquetas originales. De lo contrario serán rechazados.\n\nSi cumplís estos requisitos, es muy fácil iniciar tu devolución, tomá en cuenta los siguientes puntos:\n\nEn el detalle de la compra que realizaste tienes que seleccionar las siguientes opciones:\n\n\"Necesito ayuda\".\n\n\"Quiero devolver el producto?\"\n\n\"Es lo que compré pero no me sirve\"\n\nFinalmente seleccioná la opción acorde a tu caso para poder iniciar el proceso de devolución.\n\nMercado Libre generará una etiqueta de envío para que puedas imprimir y pegues en el paquete embolsado en su packaging original o en una bolsa negra bien sellada. Deberás llevar el paquete a la sucursal del Correo que te indicarán en la etiqueta.\n\nUna vez que recibamos el paquete, se realizará la devolución del dinero a tu cuenta de Mercado Pago o lo verás reflejado en tu próximo resumen de la tarjeta de crédito.\n\nENVÍOS\n\n¡Disfrutá de envío gratis en todos nuestros productos nuevos desde $30.000 ARS!\n\nIMPORTANTE: Realizamos envíos a toda Argentina, excepto a Tierra del Fuego.\n\nNos encargaremos de despachar tu producto en cuanto tu pedido esté confirmado y podrás ver el avance de tu pedido a través del botón \"Seguir Envío\".\n\nRecordá que podés identificar si un artículo es nuevo en nuestro sitio, si este cuenta con una leyenda de \"Nuevo\" arriba del nombre del producto.",
+    "price": 99999
+  }
 ]
