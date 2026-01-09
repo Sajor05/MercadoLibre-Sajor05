@@ -46,7 +46,7 @@ export function createProductController() {
         };
 
         try {
-            const response = await fetch("http://localhost:4000/api/productsjson", {
+            const response = await fetch("https://mercadolibre-sajor05.onrender.com/api/productsjson", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json" // Importante para que Node entienda el JSON
