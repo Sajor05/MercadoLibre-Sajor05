@@ -17,7 +17,7 @@ export function ProductViewCard () {
   useEffect( () => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/api/productsjson")
+        const res = await axios.get("https://mercadolibre-sajor05.onrender.com/api/productsjson")
         const productos = res.data
         const producto = productos.find(e => e.id == params.id)
         setItem(producto)
