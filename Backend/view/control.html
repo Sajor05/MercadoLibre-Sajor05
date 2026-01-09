@@ -89,8 +89,8 @@
                             <div class="flex flex-col">
                                 <label class="text-sm font-medium">¿Es MercadoLíder?</label>
                                 <select name="seller_isML" class="bg-white p-2 rounded border border-gray-300">
-                                    <option value="false">Falso</option>
-                                    <option value="true">Verdadero</option>
+                                    <option value="false">false</option>
+                                    <option value="true">true</option>
                                 </select>
                             </div>
                             <div class="flex flex-col">
@@ -135,7 +135,7 @@
         Gracias ger :D
     </footer>
     <script type="module">
-        import {createProductController} from "./script/serializer.js"
+        import {createProductController} from "../controllers/serializer.js"
         createProductController()
     </script>
 </body>
