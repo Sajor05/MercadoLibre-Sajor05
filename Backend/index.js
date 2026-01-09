@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname,"view")))
 app.use(cors({
-    origin: ["https://mercadolibre-sajor05.onrender.com/"],
+    origin: ["https://mercado-libre-sajor05.vercel.app/"],
     methods: ["GET", "POST"],
     credentials:true
   })
