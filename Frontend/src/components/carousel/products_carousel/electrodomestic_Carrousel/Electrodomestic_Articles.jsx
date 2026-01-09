@@ -8,7 +8,7 @@ export function Electrodomestic_Articles(){
   useEffect(() => { 
     const fetchData = async () => {
       try {
-        const res = await axios.get("http://localhost:4000/api/productsjson")
+        const res = await axios.get("https://mercadolibre-sajor05.onrender.com/api/productsjson")
         setItems(res.data)
       } catch (error) {
         console.log(error)
