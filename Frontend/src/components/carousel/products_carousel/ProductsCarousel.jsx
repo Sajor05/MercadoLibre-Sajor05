@@ -9,7 +9,7 @@ export function CarCarousel() {
     const fetchData = async () =>{
         try {
             const res = await axios.get("https://mercadolibre-sajor05.onrender.com/api/productsjson")
-            const categoryProducts = res.filter((e) => e.category.principalCategory === "Accesorios para Vehículos")
+            const categoryProducts = res.data.filter((e) => e.category.principalCategory === "Accesorios para Vehículos")
             setItems(categoryProducts)
         } catch (error) {
             console.log(error)
