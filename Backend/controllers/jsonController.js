@@ -44,7 +44,9 @@ export const createProductController = async (req, res) => {
 
 export const getProductsController = async (req, res) => {
     try {
-        const allProducts = await Product.find(); 
+        const allProducts = await Product.find();
+        console.log(allProducts);
+        console.log(allProducts.lenght)
         res.status(200).json(allProducts);
     } catch (error) {
         console.error(error);
