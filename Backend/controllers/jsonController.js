@@ -1,6 +1,7 @@
 import fs from "node:fs/promises"
 import path from "node:path"
 import { cwd } from "node:process"
+import { Product } from "../models/product_model"
 
 export const quickaccessController = async (req, res) => {
     try {
