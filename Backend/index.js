@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/controllers", express.static(path.join(__dirname, "controllers")));
 app.use(express.static(path.join(__dirname,"view")))
 app.use(cors({
-    origin: ["https://mercado-libre-sajor05.vercel.app"],
+    origin: ["https://mercado-libre-sajor05-git-main-fabrizios-projects-104c0354.vercel.app"],
     methods: ["GET", "POST"],
     credentials:true
   })
