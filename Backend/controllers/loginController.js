@@ -29,16 +29,3 @@ export const login = async (req, res) => {
         res.status(500).json({message:error.message});
   }
 }
-
-export const getProductsController = async (req, res) => {
-    try {
-        // .find() es el método de Mongoose que dice: "Traeme todo lo que haya en la colección"
-        const allProducts = await Product.find(); 
-        
-        // Se lo mandamos al frontend (React/HTML)
-        res.status(200).json(allProducts);
-    } catch (error) {
-        console.error(error);
-        res.status(500).json({ error: "Error al obtener los productos" });
-    }
-};

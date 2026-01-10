@@ -8,7 +8,7 @@ import { register } from "../controllers/registerController.js";
 import { verifyToken } from "../controllers/tokenController.js";
 import { quickaccessController } from "../controllers/jsonController.js"
 import {offerProductsController} from "../controllers/jsonController.js"
-import { getProductsController } from "../controllers/loginController.js";
+import { getProductsController } from "../controllers/jsonController.js";
 import { createProductController } from "../controllers/jsonController.js";
 import { propagandaController } from "../controllers/propagandaController.js"
 
