@@ -1,7 +1,6 @@
 import mongoose from "mongoose"
 
 const productSchema = new mongoose.Schema({
-    id: { type: Number, unique: true }, // O deja que Mongo use su _id
     title: String,
     price: Number,
     stockCount: Number,
