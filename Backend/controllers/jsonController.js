@@ -25,3 +25,29 @@ export const offerProductsController = async (req, res) => {
         res.send(500).json({message:"Error interno del servidor"})
     }
 }
+
+export const createProductController = async (req, res) => {
+    try {
+        const newProduct = new Product(req.body);
+
+        await newProduct.save();
+        res.status(201).json({ 
+            message: "Producto creado exitosamente", 
+            product: newProduct 
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: "Error interno del servidor al guardar" });
+    }
+}
+
+export const getProductsController = async (req, res) => {
+    try {
+        const allProducts = await Product.find(); 
+        
+        res.status(200).json(allProducts);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ error: "Error al obtener los productos" });
+    }
+};

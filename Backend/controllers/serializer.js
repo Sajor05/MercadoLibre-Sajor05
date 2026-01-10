@@ -1,4 +1,4 @@
-export function createProductController() {
+export function handleFormData() {
     //Script del front, el back no entiende el document
     const form = document.getElementById("form-data");
 
@@ -12,8 +12,6 @@ export function createProductController() {
         };
 
         const newProductJSON = {
-            id: Number(formData.get('id')),
-            
             images: textToArray(formData.get('images_list')),
             details: textToArray(formData.get('details_list')),
             
