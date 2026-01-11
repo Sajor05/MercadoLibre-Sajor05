@@ -6,8 +6,7 @@ import { MercadoPlay } from "./components/mercado_play/Mercado_Play.jsx";
 import { DoublePropagandaContext } from "../../context/PropagandaContext.jsx";
 import { Quickaccess } from "../../components/carousel/quickAccess_carousel/Quickacces.jsx";
 import { Main_carousel } from "../../components/carousel/main_home_carousel/Main_carousel.jsx";
-import { Electrodomestic_Carrousel } from "../../components/carousel/products_carousel/electrodomestic_Carrousel/Electrodomestic_Carrousel.jsx";
-import { CarCarousel } from "../../components/carousel/products_carousel/ProductsCarousel.jsx";
+import { CarAccesoryCarousel } from "../../components/carousel/products_carousel/ProductsCarousel.jsx";
 import { ConsoleCarousel } from "../../components/carousel/products_carousel/ProductsCarousel.jsx";
 
 export const Home = () => {
@@ -39,7 +38,7 @@ export const Home = () => {
         </section>
 
         <section className="mt-[120px]">
-          <CarCarousel/>
+          <CarAccesoryCarousel/>
         </section>
 
         <section className="mt-[120px]">
