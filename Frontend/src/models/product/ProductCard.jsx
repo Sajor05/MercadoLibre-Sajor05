@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const ProductCard = ({ product }) => {
   return (
-    <Link to={`/detail/${product.id}`} className="p-5 rounded-md">
+    <Link to={`/detail/${product._id}`} className="p-5 rounded-md">
       <div className="flex justify-center recomendation-carousel-article-img text-center p-2">
         <img
           src={product.images[0]}

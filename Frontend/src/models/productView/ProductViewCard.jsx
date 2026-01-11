@@ -19,7 +19,7 @@ export function ProductViewCard () {
       try {
         const res = await axios.get("https://mercadolibre-sajor05.onrender.com/api/productsjson")
         const productos = res.data
-        const producto = productos.find(e => e.id == params.id)
+        const producto = productos.find(e => e._id == params._id)
         setItem(producto)
       } catch (error) {
         console.log(error)        
