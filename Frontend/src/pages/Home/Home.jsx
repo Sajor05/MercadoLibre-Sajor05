@@ -8,6 +8,7 @@ import { Quickaccess } from "../../components/carousel/quickAccess_carousel/Quic
 import { Main_carousel } from "../../components/carousel/main_home_carousel/Main_carousel.jsx";
 import { Electrodomestic_Carrousel } from "../../components/carousel/products_carousel/electrodomestic_Carrousel/Electrodomestic_Carrousel.jsx";
 import { CarCarousel } from "../../components/carousel/products_carousel/ProductsCarousel.jsx";
+import { ConsoleCarousel } from "../../components/carousel/products_carousel/ProductsCarousel.jsx";
 
 export const Home = () => {
   return (
@@ -38,11 +39,11 @@ export const Home = () => {
         </section>
 
         <section className="mt-[120px]">
-          <Electrodomestic_Carrousel/>
+          <CarCarousel/>
         </section>
 
         <section className="mt-[120px]">
-          <CarCarousel/>
+          <ConsoleCarousel/>
         </section>
       </main>
     </>

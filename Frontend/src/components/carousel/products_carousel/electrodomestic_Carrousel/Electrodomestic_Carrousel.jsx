@@ -1,39 +1,6 @@
 import "./css/Electrodomestic_carousel.css";
 import { Electrodomestic_Articles } from "./Electrodomestic_Articles.jsx";
 
-const Index_buttons = () => {
-  return(
-    <header className="related_history-header-container flex justify-between">
-      <h3 className="font-bold">Electrodomésticos</h3>
-      <ul className="flex gap-3">
-        <li>
-          <button
-            type="button"
-            className="p-1 rounded-full shadow bg-gray-200 text-gray-800 hover:bg-white cursor-pointer"
-          ></button>
-        </li>
-        <li>
-          <button
-            type="button"
-            className="p-1 rounded-full shadow bg-gray-200 text-gray-800 hover:bg-white cursor-pointer"
-          ></button>
-        </li>
-        <li>
-          <button
-            type="button"
-            className="p-1 rounded-full shadow bg-gray-200 text-gray-800 hover:bg-blue-200 cursor-pointer"
-          ></button>
-        </li>
-        <li>
-          <button
-            type="button"
-            className="p-1 rounded-full shadow bg-gray-200 text-gray-800 hover:bg-white cursor-pointer"
-          ></button>
-        </li>
-      </ul>
-    </header>    
-  );
-}
 
 export const Electrodomestic_Carrousel = () => {
   return (

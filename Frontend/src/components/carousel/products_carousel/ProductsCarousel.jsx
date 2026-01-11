@@ -1,26 +1,33 @@
-import axios from "axios"
-import { useState, useEffect } from "react"
+import { useProducts } from "../../../hooks/ProductHook"
 import { ProductCard } from "../../../models/product/ProductCard"
 import { Recommendation_carousel } from "../Recommendation_carrousel"
 
-export function CarCarousel() {
-
-  const[items, setItems]=useState([])
-  useEffect( () => {
-    const fetchData = async () =>{
-        try {
-            const res = await axios.get("https://mercadolibre-sajor05.onrender.com/api/productsjson")
-            const categoryProducts = res.data.filter((e) => e.category.principalCategory === "Accesorios para Vehículos")
-            setItems(categoryProducts)
-        } catch (error) {
-            console.log(error)
-        }
-    }; fetchData()
-  },[])
+export function CarAccesoryCarousel() {
+  const products = useProducts()
+  const categoryProducts = products.filter((e) => e.category.principalCategory === "Accesorios para Vehículos")
   return (
     <section className="flex justify-center p-5">
       <Recommendation_carousel>
-        {items.map((art, i) => (
+        {categoryProducts.map((art, i) => (
+          <div
+            key={i}
+            className="ProductCardModels-card flex-shrink-0 w-[190px] h-[290px]"
+          >
+            <ProductCard product={art}/>
+          </div>
+        ))}
+      </Recommendation_carousel>
+    </section>
+  )
+}
+
+export function ConsoleCarousel() {
+  const products = useProducts()
+  const categoryProducts = products.filter((e) => e.category.principalCategory === "Consolas y Videojuegos")
+  return (
+    <section className="flex justify-center p-5">
+      <Recommendation_carousel>
+        {categoryProducts.map((art, i) => (
           <div
             key={i}
             className="ProductCardModels-card flex-shrink-0 w-[190px] h-[290px]"
